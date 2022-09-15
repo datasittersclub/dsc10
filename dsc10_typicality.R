@@ -1,5 +1,5 @@
-#Functions for Average Descriptions of Things
-#wordlist.score is a 2 column data frame. The first column is a vector of words, the second is a vector of multipliers
+# Functions for Average Descriptions of Things
+# wordlist.score is a 2 column data frame. The first column is a vector of words, the second is a vector of multipliers
 
 cleanChunk<-function(text.chunk){
   text.chunk<-paste(text.chunk, collapse=" ")
